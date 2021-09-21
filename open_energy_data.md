@@ -1,58 +1,58 @@
 # Datenkataster offene Energiedaten
 
 - [Datenkataster offene Energiedaten](#datenkataster-offene-energiedaten)
-  * [Über diesen Datenkataster](#-ber-diesen-datenkataster)
-  * [Was ist Open Data?](#was-ist-open-data-)
-  * [Was ist Open Government Data?](#was-ist-open-government-data-)
-  * [Was sind Geodaten?](#was-sind-geodaten-)
-  * [Wo finde ich Open (Government) Data?](#wo-finde-ich-open--government--data-)
-  * [Wie ist diese Dokumentation aufgebaut?](#wie-ist-diese-dokumentation-aufgebaut-)
-  * [Datensätze nach Energiethemen](#datens-tze-nach-energiethemen)
+  * [Über diesen Datenkataster](#über-diesen-datenkataster)
+  * [Was ist Open Data?](#was-ist-open-data)
+  * [Was ist Open Government Data?](#was-ist-open-government-data)
+  * [Was sind Geodaten?](#was-sind-geodaten)
+  * [Wo finde ich Open (Government) Data?](#wo-finde-ich-open-government-data)
+  * [Wie ist diese Dokumentation aufgebaut?](#wie-ist-diese-dokumentation-aufgebaut)
+  * [Datensätze nach Energiethemen](#datensätze-nach-energiethemen)
     + [Energiepotenziale](#energiepotenziale)
-      - [Eignung von Hausdächern für die Nutzung von Sonnenenergie](#eignung-von-hausd-chern-f-r-die-nutzung-von-sonnenenergie)
-      - [Eignung von Fassaden für die Nutzung von Sonnenenergie](#eignung-von-fassaden-f-r-die-nutzung-von-sonnenenergie)
-      - [Potenzial der verholzten Biomassenressourcen für die energetische Nutzung](#potenzial-der-verholzten-biomassenressourcen-f-r-die-energetische-nutzung)
-      - [Potenzial der nicht-verholzten Biomassenressourcen für die energetische Nutzung](#potenzial-der-nicht-verholzten-biomassenressourcen-f-r-die-energetische-nutzung)
-      - [Jahresmittel der Windgeschwindigkeit und -richtung](#jahresmittel-der-windgeschwindigkeit-und--richtung)
-      - [Wärme- und Kälteangebot](#w-rme--und-k-lteangebot)
+      - [Eignung von Hausdächern für die Nutzung von Sonnenenergie](#eignung-von-hausdächern-für-die-nutzung-von-sonnenenergie)
+      - [Eignung von Fassaden für die Nutzung von Sonnenenergie](#eignung-von-fassaden-für-die-nutzung-von-sonnenenergie)
+      - [Potenzial der verholzten Biomassenressourcen für die energetische Nutzung](#potenzial-der-verholzten-biomassenressourcen-für-die-energetische-nutzung)
+      - [Potenzial der nicht-verholzten Biomassenressourcen für die energetische Nutzung](#potenzial-der-nicht-verholzten-biomassenressourcen-für-die-energetische-nutzung)
+      - [Jahresmittel der Windgeschwindigkeit und -richtung](#jahresmittel-der-windgeschwindigkeit-und-richtung)
+      - [Wärme- und Kälteangebot](#wärme-und-kälteangebot)
     + [Energieproduktion](#energieproduktion)
-      - [Elektrizitätsproduktionsanlagen](#elektrizit-tsproduktionsanlagen)
-      - [Bezüger\*innen der kostendeckenden Einspeisevergütung (KEV)](#bez-ger--innen-der-kostendeckenden-einspeiseverg-tung--kev-)
+      - [Elektrizitätsproduktionsanlagen](#elektrizitätsproduktionsanlagen)
+      - [Bezüger\*innen der kostendeckenden Einspeisevergütung (KEV)](#bezügerinnen-der-kostendeckenden-einspeisevergütung-kev)
       - [Stromproduktion](#stromproduktion)
-      - [Thermische Netze (Nahwärme, Fernwärme, Fernkälte)](#thermische-netze--nahw-rme--fernw-rme--fernk-lte-)
-    + [Energieübertragung und -verteilung](#energie-bertragung-und--verteilung)
-      - [Stromnetzdaten Regelblock Schweiz](#stromnetzdaten-regelblock-schweiz)
-      - [Stromtarif pro Gemeinde, Netzbetreiber und Verbrauchskategorie](#stromtarif-pro-gemeinde--netzbetreiber-und-verbrauchskategorie)
+    + [Energieübertragung und -verteilung](#energieübertragung-und-verteilung)
+      - [Übertragungsnetzdaten Regelblock Schweiz](#übertragungsnetzdaten-regelblock-schweiz)
+      - [Stromtarif pro Gemeinde, Netzbetreiber und Verbrauchskategorie](#stromtarif-pro-gemeinde-netzbetreiber-und-verbrauchskategorie)
+      - [Thermische Netze (Nahwärme, Fernwärme, Fernkälte)](#thermische-netze-nahwärme-fernwärme-fernkälte)
     + [Energieverbrauch](#energieverbrauch)
-      - [Residential & commercial building energy demand profiles under different retrofit scenarios (CESAR model)](#residential---commercial-building-energy-demand-profiles-under-different-retrofit-scenarios--cesar-model-)
-      - [Load Profile Generator, Energie- und Wasserbedarf von Haushalten](#load-profile-generator--energie--und-wasserbedarf-von-haushalten)
+      - [Resident and commercial building energy demand profiles under different retrofit scenarios (CESAR model)](#resident-and-commercial-building-energy-demand-profiles-under-different-retrofit-scenarios-cesar-model)
+      - [Load Profile Generator, Energie- und Wasserbedarf von Haushalten](#load-profile-generator-energie-und-wasserbedarf-von-haushalten)
       - [Stromverbrauch](#stromverbrauch)
-    + [Energiebilanz (Produktion & Verbrauch)](#energiebilanz--produktion---verbrauch-)
+    + [Energiebilanz (Produktion und Verbrauch)](#energiebilanz-produktion-und-verbrauch)
       - [Schweizerische Gesamtenergiestatistik](#schweizerische-gesamtenergiestatistik)
     + [Energiehandel](#energiehandel)
       - [Strompreise](#strompreise)
-      - [Herkunftsnachweise (HKN)](#herkunftsnachweise--hkn-)
-    + [Mobilität](#mobilit-t)
-      - [Schweizerische automatische Strassenverkehrszählung (SASVZ)](#schweizerische-automatische-strassenverkehrsz-hlung--sasvz-)
-      - [Anteil der rein elektrischen Fahrzeuge am Personenwagenbestand (StatAtlas)](#anteil-der-rein-elektrischen-fahrzeuge-am-personenwagenbestand--statatlas-)
-      - [Ladestationen für Elektroautos](#ladestationen-f-r-elektroautos)
+      - [Herkunftsnachweise (HKN)](#herkunftsnachweise-hkn)
+    + [Mobilität](#mobilität)
+      - [Schweizerische automatische Strassenverkehrszählung (SASVZ)](#schweizerische-automatische-strassenverkehrszählung-sasvz)
+      - [Anteil der rein elektrischen Fahrzeuge am Personenwagenbestand (StatAtlas)](#anteil-der-rein-elektrischen-fahrzeuge-am-personenwagenbestand-statatlas)
+      - [Ladestationen für Elektroautos](#ladestationen-für-elektroautos)
       - [Reisedistanzen pro Tag im Jahr 2017](#reisedistanzen-pro-tag-im-jahr-2017)
       - [Energieeffizienz verschiedener Verkehrsmittel](#energieeffizienz-verschiedener-verkehrsmittel)
-      - [Erwerbstätige nach Wohn- und Arbeitsgemeinde («Pendlermatrix»)](#erwerbst-tige-nach-wohn--und-arbeitsgemeinde---pendlermatrix--)
+      - [Erwerbstätige nach Wohn- und Arbeitsgemeinde (Pendlermatrix)](#erwerbstätige-nach-wohn-und-arbeitsgemeinde-pendlermatrix)
       - [Shared Mobility Angebote](#shared-mobility-angebote)
     + [Amtliche Grundlagendaten](#amtliche-grundlagendaten)
-      - [Eidgenössisches Gebäude- und Wohnungsregister (GWR)](#eidgen-ssisches-geb-ude--und-wohnungsregister--gwr-)
-      - [Amtliche Vermessung (AV)](#amtliche-vermessung--av-)
-      - [Gebäude als 3D-Modelle: swissBUILDINGS3D 2.0](#geb-ude-als-3d-modelle--swissbuildings3d-20)
+      - [Eidgenössisches Gebäude- und Wohnungsregister (GWR)](#eidgenössisches-gebäude-und-wohnungsregister-gwr)
+      - [Amtliche Vermessung (AV)](#amtliche-vermessung-av)
+      - [Gebäude als 3D-Modelle (swissBUILDINGS3D 2.0)](#gebäude-als-3d-modelle-swissbuildings3d-20)
     + [Umweltdaten](#umweltdaten)
       - [Historische Wetterdaten](#historische-wetterdaten)
       - [Klimanormwerte](#klimanormwerte)
     + [Gesellschaft und Wirtschaft](#gesellschaft-und-wirtschaft)
-      - [Zentraler Firmenindex (Zefix)](#zentraler-firmenindex--zefix-)
-      - [CO2-Emissionshandel (Schweizer Emissionshandelsregister)](#co2-emissionshandel--schweizer-emissionshandelsregister-)
-      - [Bevölkerungsdichte (StatAtlas)](#bev-lkerungsdichte--statatlas-)
-      - [Neu erstellte Gebäude pro Einwohner (StatAtlas)](#neu-erstellte-geb-ude-pro-einwohner--statatlas-)
-      - [Anteil Beschäftigte in High-Tech-Branchen (StatAtlas)](#anteil-besch-ftigte-in-high-tech-branchen--statatlas-)
+      - [Zentraler Firmenindex (Zefix)](#zentraler-firmenindex-zefix)
+      - [CO2-Emissionshandel (Schweizer Emissionshandelsregister)](#co2-emissionshandel-schweizer-emissionshandelsregister)
+      - [Bevölkerungsdichte (StatAtlas)](#bevölkerungsdichte-statatlas)
+      - [Neu erstellte Gebäude pro Einwohner (StatAtlas)](#neu-erstellte-gebäude-pro-einwohner-statatlas)
+      - [Anteil Beschäftigte in High-Tech-Branchen (StatAtlas)](#anteil-beschäftigte-in-high-tech-branchen-statatlas)
 
 ## Über diesen Datenkataster
 
@@ -95,27 +95,29 @@ ein. Als solche werden Daten bezeichnet, welche von Behörden als Open
 Data bereitgestellt werden. Die [OGD-Strategie der
 Schweiz](https://www.bfs.admin.ch/bfs/de/home/dienstleistungen/ogd/strategie.html)
 wurde am 30. November 2018 vom Bundesrat verabschiedet. Mit dieser
-Strategie sollen der Öffentlichkeit auf dem Portal **opendata.swiss**
-offene und frei nutzbare Verwaltungsdaten zur Verfügung gestellt werden.
+Strategie sollen der Öffentlichkeit auf dem Portal
+[opendata.swiss](https://opendata.swiss/) offene und frei nutzbare
+Verwaltungsdaten zur Verfügung gestellt werden.
 Sofern ein öffentliches Interesse besteht, werden auch Daten von
 bundesnahen Betrieben sowie von Behörden beauftragte private Akteure
 veröffentlicht.
 
 Neben dieser nationalen Strategie werden auch auf den Ebenen der
-**Kantone, Gemeinden und Städte** einige OGD-Strategien vorangetrieben
-mit jeweils eigenen Portalen.
+**Kantone, Gemeinden und Städte** einige OGD-Strategien vorangetrieben.
+Diese Institutionen stellen ihre offenen Daten teils auf eigenen Portalen
+bereit, publizieren sie jedoch auch auf [opendata.swiss](https://opendata.swiss/).
 
 ## Was sind Geodaten?
 
 Geodaten sind Daten, deren räumliche Lage auf der Erde beispielsweise
 über Koordinaten eindeutig festgelegt ist und die dadurch ohne
 vorgängige Geokodierung (wie beispielsweise «address matching») in eine
-Karte eingebunden werden können. **Geocat.ch** ist ein schweizerischer
-Metadatenkatalog für Geodaten, in welchem sowohl behördliche als auch
-nicht-behördliche Organisationen ihre Geodaten publizieren. Diese
-können, müssen aber nicht zu Open Data-Bedingungen veröffentlicht
-werden. Offene Geodaten sind oft auch auf **opendata.swiss**
-verzeichnet.
+Karte eingebunden werden können. [geocat.ch](https://www.geocat.ch/)
+ist ein schweizerischer Metadatenkatalog für Geodaten, in welchem sowohl
+behördliche als auch nicht-behördliche Organisationen ihre Geodaten
+publizieren. Diese können, müssen aber nicht zu Open Data-Bedingungen
+veröffentlicht werden. Offene Geodaten sind oft auch auf
+[opendata.swiss](https://opendata.swiss/) verzeichnet.
 
 ## Wo finde ich Open (Government) Data?
 
@@ -124,17 +126,12 @@ verzeichnet.
 -   Schweizer Behörden (Bund, Kantone, Gemeinden):
     <https://opendata.swiss/>
 
--   Kantonale Portale:
-    [https://www.egovernment.ch/de/\[...\]/open-data/](https://www.egovernment.ch/de/dokumentation/trends-in-der-digitalisierung/open-data/) >
-    «Projekte»
+-   Linksammlung zu OGD-Initiativen:
+    [https://www.egovernment.ch/de/\[...\]/open-data/](https://www.egovernment.ch/de/dokumentation/trends-in-der-digitalisierung/open-data/)
 
--   Stadt Zürich: <https://data.stadt-zuerich.ch/>
-
--   Stadt Bern:
-    <https://www.bern.ch/open-government-data-ogd/ogd-nach-themen>
-
--   Verkehrsdaten-Portal des ASTRA:
-    <https://opentransportdata.swiss/de/>
+-   Verkehrsdaten-Portal mit API:
+    <https://opentransportdata.swiss/de/>\
+    (Downloads sind auch auf [opendata.swiss](https://opendata.swiss/) verfügbar)
 
 **Datenportale mit OGD-Angebot**
 
@@ -483,43 +480,9 @@ Für mehr Informationen siehe [Netzdaten Regelblock Schweiz](#stromnetzdaten-reg
 | Eigentum von             | Swissgrid AG                                                            |
 | Kontakt                  | Telefon +41 58 580 21 11<br/>E-Mail info@swissgrid.ch                   |
 
-#### Thermische Netze (Nahwärme, Fernwärme, Fernkälte)
-
-Unter Thermischen Netzen versteht man eine Infrastruktur, welche mehrere
-Gebäude auf verschiedenen Grundstücken mit thermischer Energie versorgt.
-Es ist eine leitungsgebundene Wärme- oder Kälteversorgung von Kunden
-über Wasser oder Dampf. \[…\] Sämtliche Informationen basieren auf den
-Auskünften der Anlagenbetreibenden.
-
-Attribute:
-
--   Name
--   Zip
--   Operator
--   Contact
--   BeginOp
--   Power
--   Energy
--   HouseConne
--   EnSource\[1,2\]
--   u.a.
-
-| Metadaten                |                                                                                                                                    |
-|--------------------------|------------------------------------------------------------------------------------------------------------------------------------|
-| Ausdehnung               | Schweiz                                                                                                                            |
-| Datenebene               | Netzstandorte                                                                                                                      |
-| Geodaten                 | Ja                                                                                                                                 |
-| Format                   | CSV, Shapefile, Interlis XTF, WMS, REST API                                                                                        |
-| Datenbezug               | <https://opendata.swiss/de/dataset/thermische-netze-nahwarme-fernwarme-fernkalte>                                                  |
-| Dokumentation            | <https://www.bfe.admin.ch/bfe/de/home/versorgung/statistik-und-geodaten/geoinformation/geodaten/thermische-netze/thermische-netze.html> |
-| Open Data                | Ja                                                                                                                                 |
-| Aktualisierungsintervall | Kontinuierlich                                                                                                                     |
-| Eigentum von             | Bundesamt für Energie (BFE)                                                                                                        |
-| Kontakt                  | geoinformation@bfe.admin.ch                                                                                                        |
-
 ### Energieübertragung und -verteilung
 
-#### Stromnetzdaten Regelblock Schweiz
+#### Übertragungsnetzdaten Regelblock Schweiz
 
 Seit der Öffnung des Strommarktes Anfang 2009 empfängt die Swissgrid als
 Übertragungsnetzbetreiberin und Bilanzgruppenkoordinatorin verschiedene
@@ -610,9 +573,43 @@ Attribute:
 | Eigentum von             | Eidgenössische Elektrizitätskommission (ElCom)                                                                                     |
 | Kontakt                  | Telefon +41 58 462 58 33<br/>E-Mail info@elcom.admin.ch                                                                            |
 
+#### Thermische Netze (Nahwärme, Fernwärme, Fernkälte)
+
+Unter Thermischen Netzen versteht man eine Infrastruktur, welche mehrere
+Gebäude auf verschiedenen Grundstücken mit thermischer Energie versorgt.
+Es ist eine leitungsgebundene Wärme- oder Kälteversorgung von Kunden
+über Wasser oder Dampf. \[…\] Sämtliche Informationen basieren auf den
+Auskünften der Anlagenbetreibenden.
+
+Attribute:
+
+-   Name
+-   Zip
+-   Operator
+-   Contact
+-   BeginOp
+-   Power
+-   Energy
+-   HouseConne
+-   EnSource\[1,2\]
+-   u.a.
+
+| Metadaten                |                                                                                                                                    |
+|--------------------------|------------------------------------------------------------------------------------------------------------------------------------|
+| Ausdehnung               | Schweiz                                                                                                                            |
+| Datenebene               | Netzstandorte                                                                                                                      |
+| Geodaten                 | Ja                                                                                                                                 |
+| Format                   | CSV, Shapefile, Interlis XTF, WMS, REST API                                                                                        |
+| Datenbezug               | <https://opendata.swiss/de/dataset/thermische-netze-nahwarme-fernwarme-fernkalte>                                                  |
+| Dokumentation            | <https://www.bfe.admin.ch/bfe/de/home/versorgung/statistik-und-geodaten/geoinformation/geodaten/thermische-netze/thermische-netze.html> |
+| Open Data                | Ja                                                                                                                                 |
+| Aktualisierungsintervall | Kontinuierlich                                                                                                                     |
+| Eigentum von             | Bundesamt für Energie (BFE)                                                                                                        |
+| Kontakt                  | geoinformation@bfe.admin.ch                                                                                                        |
+
 ### Energieverbrauch
 
-#### Residential & commercial building energy demand profiles under different retrofit scenarios (CESAR model)
+#### Resident and commercial building energy demand profiles under different retrofit scenarios (CESAR model)
 
 Stündlicher Energiebedarf im Laufe eines Jahres an Warmwasser, Raumwärme
 und Raumkühlung für verschiedene Gebäudetypen und Bauperioden.
@@ -684,7 +681,7 @@ Für mehr Informationen siehe [Netzdaten Regelblock Schweiz](#stromnetzdaten-reg
 | Eigentum von             | Swissgrid AG                                                            |
 | Kontakt                  | Telefon +41 58 580 21 11<br/>E-Mail info@swissgrid.ch                   |
 
-### Energiebilanz (Produktion & Verbrauch)
+### Energiebilanz (Produktion und Verbrauch)
 
 #### Schweizerische Gesamtenergiestatistik
 
@@ -952,7 +949,7 @@ Fahrzeuge und des Fahrzeuggewichts vornehmen.
 | Eigentum von             | Verein mobitool (Trägerschaft: SBB, Swisscom, EnergieSchweiz, BAFU, öbu)        |
 | Kontakt                  | Telefon: +41 33 334 00 20<br/>E-Mail: info@mobitool.ch                          |
 
-#### Erwerbstätige nach Wohn- und Arbeitsgemeinde («Pendlermatrix»)
+#### Erwerbstätige nach Wohn- und Arbeitsgemeinde (Pendlermatrix)
 
 Wie viele Personen pendeln für die Arbeit von Winterthur nach Zürich?
 Wie viele von den in Airolo wohnhaften Erwerbstätigen fahren in eine
@@ -1088,7 +1085,7 @@ Eine Auswahl an Layern und möglichen Ausprägungen:
 | Eigentum von             | Eigentum des jeweiligen Kantons                                         |
 | Kontakt                  | <https://geodienste.ch/support>                                         |
 
-#### Gebäude als 3D-Modelle: swissBUILDINGS3D 2.0
+#### Gebäude als 3D-Modelle (swissBUILDINGS3D 2.0)
 
 swissBUILDINGS3D 2.0 ist ein Vektordatensatz, der Gebäude als 3D-Modelle
 mit Dachformen und Dachüberständen darstellt. Die hohe Genauigkeit in
