@@ -25,6 +25,7 @@
       - [Stromtarif pro Gemeinde, Netzbetreiber und Verbrauchskategorie](#stromtarif-pro-gemeinde--netzbetreiber-und-verbrauchskategorie)
     + [Energieverbrauch](#energieverbrauch)
       - [Residential & commercial building energy demand profiles under different retrofit scenarios (CESAR model)](#residential---commercial-building-energy-demand-profiles-under-different-retrofit-scenarios--cesar-model-)
+      - [Load Profile Generator, Energie- und Wasserbedarf von Haushalten](#load-profile-generator--energie--und-wasserbedarf-von-haushalten)
       - [Stromverbrauch](#stromverbrauch)
     + [Energiebilanz (Produktion & Verbrauch)](#energiebilanz--produktion---verbrauch-)
       - [Schweizerische Gesamtenergiestatistik](#schweizerische-gesamtenergiestatistik)
@@ -174,9 +175,9 @@ verzeichnet.
 
 **Weitere in diesem Dokument verwendete Quellen**
 
--   Linksammlung zum Thema Offene Energiedaten: <https://airtable.com/shr3ZVzEUlxS2JRLu/tblaB3bpj4UqhTSMi>
+-   Linksammlung von [opendata.ch](https://opendata.ch/) zum Thema Offene Energiedaten: <https://airtable.com/shr3ZVzEUlxS2JRLu/tblaB3bpj4UqhTSMi>
 
--   Linksammlung zum Thema Smart City: <https://airtable.com/shr3dGfwKjDcVsV39>
+-   Linksammlung von [opendata.ch](https://opendata.ch/) zum Thema Smart City: <https://airtable.com/shr3dGfwKjDcVsV39>
 
 -   <https://www.swissgrid.ch/de/home/customers/topics/energy-data-ch.html>
 
@@ -185,8 +186,7 @@ verzeichnet.
 
 -   <https://transparency.entsoe.eu/>
 
--   <https://pronovo.ch/de/services/berichte/> > Cockpit HKN >
-    \[…\]\_Rohdaten
+-   <https://pronovo.ch/de/services/berichte/> > Cockpit HKN > \[…\]\_Rohdaten
 
 -   <https://www.astra.admin.ch/astra/de/home/dokumentation/daten-informationsprodukte/verkehrsdaten/daten-publikationen/automatische-strassenverkehrszaehlung/monats-jahresergebnisse.html>
 
@@ -201,6 +201,8 @@ verzeichnet.
 -   <https://www.emissionsregistry.admin.ch/>
 
 -   <https://www.atlas.bfs.admin.ch/maps/13/map/mapIdOnly/0_de.html>
+
+-   <https://loadprofilegenerator.de/>
 
 ## Wie ist diese Dokumentation aufgebaut?
 
@@ -541,23 +543,29 @@ Attribute:
 -   Summe produzierte Energie Regelblock Schweiz
 -   Summe endverbrauchte Energie Regelblock Schweiz
 -   Summe verbrauchte Energie Regelblock Schweiz
--   Sekundärregelenergie (positive, negative)
--   Tertiärregelenerige (positive, negative)
+-   Vertikale Netzlast Übertragungsnetz Schweiz
+-   Netto Ausspeisung aus dem Übertragungsnetz Schwiez
+-   Vertikale Einspeisung ins Übertragungsnetz Schweiz
+-   Positive Sekundärregelenergie
+-   Negative Sekundärregelenergie
+-   Positive Tertiärregelenerige
+-   Negative Tertiärregelenerige
+-   Regelenergiepreise
 -   Verbundaustausch (CH \<-> AT, CH \<-> DE, CH \<-> IT)
--   u.a.
+-   Import/Export/Transit
 
-| Metadaten                |                                                                                                                                    |
-|--------------------------|------------------------------------------------------------------------------------------------------------------------------------|
-| Ausdehnung               | Schweiz                                                                                                                            |
-| Datenebene               | Regelblock Schweiz und Kantone                                                                                                     |
-| Geodaten                 | Nein                                                                                                                               |
-| Format                   | XLSX                                                                                                                               |
-| Datenbezug               | <https://www.swissgrid.ch/de/home/customers/topics/energy-data-ch.html>                                                            |
-| Dokumentation            | Blatt „Uebersicht“ in der XLSX-Datei                                                                                               |
-| Open Data                | Unbekannt                                                                                                                          |
-| Aktualisierungsintervall | Monatlich                                                                                                                          |
-| Eigentum von             | Swissgrid AG                                                                                                                       |
-| Kontakt                  | Telefon +41 58 580 21 11<br/>E-Mail info@swissgrid.ch                                                                              |
+| Metadaten                |                                                                         |
+|--------------------------|-------------------------------------------------------------------------|
+| Ausdehnung               | Schweiz                                                                 |
+| Datenebene               | Regelblock Schweiz und Kantone                                          |
+| Geodaten                 | Nein                                                                    |
+| Format                   | XLSX                                                                    |
+| Datenbezug               | <https://www.swissgrid.ch/de/home/customers/topics/energy-data-ch.html> |
+| Dokumentation            | Blatt „Uebersicht“ in der XLSX-Datei                                    |
+| Open Data                | Unbekannt                                                               |
+| Aktualisierungsintervall | Monatlich                                                               |
+| Eigentum von             | Swissgrid AG                                                            |
+| Kontakt                  | Telefon +41 58 580 21 11<br/>E-Mail info@swissgrid.ch                   |
 
 #### Stromtarif pro Gemeinde, Netzbetreiber und Verbrauchskategorie
 
@@ -632,6 +640,30 @@ Attribute:
 | Aktualisierungsintervall | Keine Aktualisierung                                                           |
 | Eigentum von             | SCCER JA S&M                                                                   |
 | Kontakt                  | <andrew.bollinger@empa.ch>, <portia.murray@empa.ch>                            |
+
+#### Load Profile Generator, Energie- und Wasserbedarf von Haushalten
+
+Bedarf an Strom, Warm- und Kaltwasser im Laufe eines Jahres.
+Die Art des Haushalts kann konfiguriert werden.
+Zeitliche Auflösung: 1 Minute.
+
+Attribute:
+
+-   Time \[DD.MM.YYYY hh:mm\]
+-   Sum \[kWh\] bei Strom, \[l\] bei Wasser
+
+| Metadaten                |                                                    |
+|--------------------------|----------------------------------------------------|
+| Ausdehnung               | keine                                              |
+| Datenebene               | Haushalt                                           |
+| Geodaten                 | Nein                                               |
+| Format                   | CSV                                                |
+| Datenbezug               | <https://loadprofilegenerator.de/download/>        |
+| Dokumentation            | <https://loadprofilegenerator.de/getting-started/> |
+| Open Data                | Ja                                                 |
+| Aktualisierungsintervall | Nach Bedarf                                        |
+| Eigentum von             | Noah Pflugradt                                     |
+| Kontakt                  | <https://loadprofilegenerator.de/contact/>         |
 
 #### Stromverbrauch
 
