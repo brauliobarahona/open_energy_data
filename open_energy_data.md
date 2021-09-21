@@ -80,6 +80,9 @@ david.suter@geoimpact.ch\
 [geoimpact.ch](https://www.geoimpact.ch/) |
 [swissenergyplanning.ch](https://www.swissenergyplanning.ch/)
 
+**Feedback**\
+Kommentare und Feedback zum Datenkataster können in den [Discussions](https://github.com/SFOE/open_energy_data/discussions/1) abgegeben werden.
+
 ## Was ist Open Data?
 
 Als Open Data werden Daten bezeichnet, die von allen Personen zu jedem
