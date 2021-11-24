@@ -1,58 +1,64 @@
 # Datenkataster offene Energiedaten
 
 - [Datenkataster offene Energiedaten](#datenkataster-offene-energiedaten)
-  * [Über diesen Datenkataster](#über-diesen-datenkataster)
-  * [Was ist Open Data?](#was-ist-open-data)
-  * [Was ist Open Government Data?](#was-ist-open-government-data)
-  * [Was sind Geodaten?](#was-sind-geodaten)
-  * [Wo finde ich Open (Government) Data?](#wo-finde-ich-open-government-data)
-  * [Wie ist diese Dokumentation aufgebaut?](#wie-ist-diese-dokumentation-aufgebaut)
-  * [Datensätze nach Energiethemen](#datensätze-nach-energiethemen)
-    + [Energiepotenziale](#energiepotenziale)
-      - [Eignung von Hausdächern für die Nutzung von Sonnenenergie](#eignung-von-hausdächern-für-die-nutzung-von-sonnenenergie)
-      - [Eignung von Fassaden für die Nutzung von Sonnenenergie](#eignung-von-fassaden-für-die-nutzung-von-sonnenenergie)
-      - [Potenzial der verholzten Biomassenressourcen für die energetische Nutzung](#potenzial-der-verholzten-biomassenressourcen-für-die-energetische-nutzung)
-      - [Potenzial der nicht-verholzten Biomassenressourcen für die energetische Nutzung](#potenzial-der-nicht-verholzten-biomassenressourcen-für-die-energetische-nutzung)
-      - [Jahresmittel der Windgeschwindigkeit und -richtung](#jahresmittel-der-windgeschwindigkeit-und-richtung)
-      - [Wärme- und Kälteangebot](#wärme-und-kälteangebot)
-    + [Energieproduktion](#energieproduktion)
-      - [Elektrizitätsproduktionsanlagen](#elektrizitätsproduktionsanlagen)
-      - [Bezüger\*innen der kostendeckenden Einspeisevergütung (KEV)](#bezügerinnen-der-kostendeckenden-einspeisevergütung-kev)
-      - [Stromproduktion](#stromproduktion)
-    + [Energieübertragung und -verteilung](#energieübertragung-und-verteilung)
-      - [Übertragungsnetzdaten Regelblock Schweiz](#übertragungsnetzdaten-regelblock-schweiz)
+  - [Über diesen Datenkataster](#%C3%BCber-diesen-datenkataster)
+  - [Was ist Open Data?](#was-ist-open-data)
+  - [Was ist Open Government Data?](#was-ist-open-government-data)
+  - [Was sind Geodaten?](#was-sind-geodaten)
+  - [Wo finde ich Open (Government) Data?](#wo-finde-ich-open-government-data)
+  - [Wie ist diese Dokumentation aufgebaut?](#wie-ist-diese-dokumentation-aufgebaut)
+  - [Datensätze nach Energiethemen](#datens%C3%A4tze-nach-energiethemen)
+    - [Energiepotenziale](#energiepotenziale)
+      - [Eignung von Hausdächern für die Nutzung von Sonnenenergie](#eignung-von-hausd%C3%A4chern-f%C3%BCr-die-nutzung-von-sonnenenergie)
+      - [Eignung von Fassaden für die Nutzung von Sonnenenergie](#eignung-von-fassaden-f%C3%BCr-die-nutzung-von-sonnenenergie)
+      - [Potenzial der verholzten Biomassenressourcen für die energetische Nutzung](#potenzial-der-verholzten-biomassenressourcen-f%C3%BCr-die-energetische-nutzung)
+      - [Potenzial der nicht-verholzten Biomassenressourcen für die energetische Nutzung](#potenzial-der-nicht-verholzten-biomassenressourcen-f%C3%BCr-die-energetische-nutzung)
+      - [Jahresmittel der Windgeschwindigkeit und -richtung](#jahresmittel-der-windgeschwindigkeit-und--richtung)
+      - [Wärme- und Kälteangebot](#w%C3%A4rme--und-k%C3%A4lteangebot)
+    - [Energieproduktion](#energieproduktion)
+      - [Elektrizitätsproduktionsanlagen](#elektrizit%C3%A4tsproduktionsanlagen)
+      - [Bezüger\*innen der kostendeckenden Einspeisevergütung (KEV)](#bez%C3%BCgerinnen-der-kostendeckenden-einspeiseverg%C3%BCtung-kev)
+      - [Stromproduktion in kWh pro Kanton](#stromproduktion-in-kwh-pro-kanton)
+      - [Stromproduktion der Solaranlagen der St.Galler Stadtwerke (Pilotprojekt Kraftwerk St.Gallen)](#stromproduktion-der-solaranlagen-der-stgaller-stadtwerke-pilotprojekt-kraftwerk-stgallen)
+    - [Energieübertragung und -verteilung](#energie%C3%BCbertragung-und--verteilung)
+      - [Übertragungsnetzdaten Regelblock Schweiz](#%C3%BCbertragungsnetzdaten-regelblock-schweiz)
       - [Stromtarif pro Gemeinde, Netzbetreiber und Verbrauchskategorie](#stromtarif-pro-gemeinde-netzbetreiber-und-verbrauchskategorie)
-      - [Thermische Netze (Nahwärme, Fernwärme, Fernkälte)](#thermische-netze-nahwärme-fernwärme-fernkälte)
-    + [Energieverbrauch](#energieverbrauch)
+      - [Thermische Netze (Nahwärme, Fernwärme, Fernkälte)](#thermische-netze-nahw%C3%A4rme-fernw%C3%A4rme-fernk%C3%A4lte)
+    - [Energieverbrauch](#energieverbrauch)
       - [Resident and commercial building energy demand profiles under different retrofit scenarios (CESAR model)](#resident-and-commercial-building-energy-demand-profiles-under-different-retrofit-scenarios-cesar-model)
-      - [Load Profile Generator, Energie- und Wasserbedarf von Haushalten](#load-profile-generator-energie-und-wasserbedarf-von-haushalten)
-      - [Stromverbrauch](#stromverbrauch)
-    + [Energiebilanz (Produktion und Verbrauch)](#energiebilanz-produktion-und-verbrauch)
+      - [Load Profile Generator, Energie- und Wasserbedarf von Haushalten](#load-profile-generator-energie--und-wasserbedarf-von-haushalten)
+      - [Stromverbrauch in kWh pro Kanton](#stromverbrauch-in-kwh-pro-kanton)
+      - [Historisierter Jahresverbrauch der Heizungen im Kanton Genf](#historisierter-jahresverbrauch-der-heizungen-im-kanton-genf)
+      - [Heizungen pro Gebäude im Kanton Genf](#heizungen-pro-geb%C3%A4ude-im-kanton-genf)
+      - [Endenergieverbrauch im Gebäudebereich nach Energieträgern und Gemeinden (Kanton Thurgau)](#endenergieverbrauch-im-geb%C3%A4udebereich-nach-energietr%C3%A4gern-und-gemeinden-kanton-thurgau)
+      - [Anzahl Hauptheizsysteme nach Gemeinden (Kanton Thurgau)](#anzahl-hauptheizsysteme-nach-gemeinden-kanton-thurgau)
+    - [Energiebilanz (Produktion und Verbrauch)](#energiebilanz-produktion-und-verbrauch)
       - [Schweizerische Gesamtenergiestatistik](#schweizerische-gesamtenergiestatistik)
-    + [Energiehandel](#energiehandel)
+    - [Energiehandel](#energiehandel)
       - [Strompreise](#strompreise)
       - [Herkunftsnachweise (HKN)](#herkunftsnachweise-hkn)
-    + [Mobilität](#mobilität)
-      - [Schweizerische automatische Strassenverkehrszählung (SASVZ)](#schweizerische-automatische-strassenverkehrszählung-sasvz)
+    - [Mobilität](#mobilit%C3%A4t)
+      - [Schweizerische automatische Strassenverkehrszählung (SASVZ)](#schweizerische-automatische-strassenverkehrsz%C3%A4hlung-sasvz)
       - [Anteil der rein elektrischen Fahrzeuge am Personenwagenbestand (StatAtlas)](#anteil-der-rein-elektrischen-fahrzeuge-am-personenwagenbestand-statatlas)
-      - [Ladestationen für Elektroautos](#ladestationen-für-elektroautos)
+      - [Ladestationen für Elektroautos](#ladestationen-f%C3%BCr-elektroautos)
       - [Reisedistanzen pro Tag im Jahr 2017](#reisedistanzen-pro-tag-im-jahr-2017)
       - [Energieeffizienz verschiedener Verkehrsmittel](#energieeffizienz-verschiedener-verkehrsmittel)
-      - [Erwerbstätige nach Wohn- und Arbeitsgemeinde (Pendlermatrix)](#erwerbstätige-nach-wohn-und-arbeitsgemeinde-pendlermatrix)
+      - [Erwerbstätige nach Wohn- und Arbeitsgemeinde (Pendlermatrix)](#erwerbst%C3%A4tige-nach-wohn--und-arbeitsgemeinde-pendlermatrix)
       - [Shared Mobility Angebote](#shared-mobility-angebote)
-    + [Amtliche Grundlagendaten](#amtliche-grundlagendaten)
-      - [Eidgenössisches Gebäude- und Wohnungsregister (GWR)](#eidgenössisches-gebäude-und-wohnungsregister-gwr)
+    - [Amtliche Grundlagendaten](#amtliche-grundlagendaten)
+      - [Eidgenössisches Gebäude- und Wohnungsregister (GWR)](#eidgen%C3%B6ssisches-geb%C3%A4ude--und-wohnungsregister-gwr)
       - [Amtliche Vermessung (AV)](#amtliche-vermessung-av)
-      - [Gebäude als 3D-Modelle (swissBUILDINGS3D 2.0)](#gebäude-als-3d-modelle-swissbuildings3d-20)
-    + [Umweltdaten](#umweltdaten)
+      - [Gebäude als 3D-Modelle (swissBUILDINGS3D 2.0)](#geb%C3%A4ude-als-3d-modelle-swissbuildings3d-20)
+    - [Umweltdaten](#umweltdaten)
       - [Historische Wetterdaten](#historische-wetterdaten)
       - [Klimanormwerte](#klimanormwerte)
-    + [Gesellschaft und Wirtschaft](#gesellschaft-und-wirtschaft)
+    - [Gesellschaft und Wirtschaft](#gesellschaft-und-wirtschaft)
       - [Zentraler Firmenindex (Zefix)](#zentraler-firmenindex-zefix)
       - [CO2-Emissionshandel (Schweizer Emissionshandelsregister)](#co2-emissionshandel-schweizer-emissionshandelsregister)
-      - [Bevölkerungsdichte (StatAtlas)](#bevölkerungsdichte-statatlas)
-      - [Neu erstellte Gebäude pro Einwohner (StatAtlas)](#neu-erstellte-gebäude-pro-einwohner-statatlas)
-      - [Anteil Beschäftigte in High-Tech-Branchen (StatAtlas)](#anteil-beschäftigte-in-high-tech-branchen-statatlas)
+      - [Bevölkerungsdichte (StatAtlas)](#bev%C3%B6lkerungsdichte-statatlas)
+      - [Neu erstellte Gebäude pro Einwohner (StatAtlas)](#neu-erstellte-geb%C3%A4ude-pro-einwohner-statatlas)
+      - [Anteil Beschäftigte in High-Tech-Branchen (StatAtlas)](#anteil-besch%C3%A4ftigte-in-high-tech-branchen-statatlas)
+
 
 ## Über diesen Datenkataster
 
@@ -169,6 +175,51 @@ veröffentlicht werden. Offene Geodaten sind oft auch auf
 
 -   [geocat.ch](https://www.geocat.ch/) – Geodaten-Katalog der Schweiz
     mit behördlichen und nicht-behördlichen Daten
+
+**Datenportale von Kantonen und Städten**
+
+- Kanton Aargau
+  - Statistik Portal: [https://www.ag.ch/de/dfr/statistik/datenportal/...](https://www.ag.ch/de/dfr/statistik/datenportal/filterabfrage/datenportal_filterabfrage.jsp?rewriteRemoteUrl=%2Fapp%2Fsajato-frontend%2Fselect)
+- Kanton Basel-Stadt
+  - [opendata.swiss](https://opendata.swiss/)
+  - OGD Datensätze: [https://data.bs.ch/explore/dataset/...](https://data.bs.ch/explore/dataset/100057/table/?sort=title)
+- Kanton Bern
+  - [opendata.swiss](https://opendata.swiss/)
+  - Geodaten-Katalog: <https://www.geo.apps.be.ch/de/geodaten/suche-nach-geodaten>
+- Kanton Freiburg
+  - Geodaten: <https://geo.fr.ch/portal/apps/sites/#/geoportal>
+- Kanton Genf
+  - Datenportal inkl. OGD: <https://ge.ch/sitg/sitg_catalog/sitg_donnees>
+- Kanton Glarus
+  - Geodaten: Öffentlich zugängliche Geodaten sind Open Data und können via <https://map.geo.gl.ch/> heruntergeladen werden
+- Kanton Graubünden
+  - [opendata.swiss](https://opendata.swiss/)
+- Kanton Jura
+  - Geodaten: [https://www.jura.ch/DEN/SDT/Cadastre-et-geoinformation/...](https://www.jura.ch/DEN/SDT/Cadastre-et-geoinformation/SIT-Jura/Liste-et-commande-de-geodonnees/Catalogue-de-donnees/Catalogue-de-donnees-Telegeodata.html)
+- Kanton Luzern
+  - Statistik Portal: <https://www.lustat.ch/daten>
+- Kanton Schaffhausen
+  - [opendata.swiss](https://opendata.swiss/)
+- Kanton Schwyz
+  - Übersicht Geodaten Bezugsquellen: [https://www.sz.ch/public/.../Liste%20Geodaten%20SZ.pdf](https://www.sz.ch/public/upload/assets/44678/Liste%20Geodaten%20SZ.pdf)
+- Kanton St. Gallen
+  - Open Data Portal: <https://daten.sg.ch>
+- Kanton Thurgau
+  - Open Data Portal: <https://daten.sg.ch>
+- Kanton Wallis
+  - [opendata.swiss](https://opendata.swiss/)
+- Kanton Zug
+  - [opendata.swiss](https://opendata.swiss/)
+  - Geodaten: <https://zugmap.ch/>
+- Kanton Zürich
+  - [opendata.swiss](https://opendata.swiss/)
+  - Offene Geodaten: [https://www.zh.ch/de/politik-staat/opendata/...](https://www.zh.ch/de/politik-staat/opendata/offene-geodaten.html#/home)
+- Stadt Bern
+  - Open Data Portal: <https://www.bern.ch/open-government-data-ogd/ogd-nach-themen>
+- Stadt St. Gallen
+  - Open Data Portal: <https://daten.stadt.sg.ch/explore/>
+- Stadt Zürich
+  - Open Data Portal: <https://data.stadt-zuerich.ch/dataset>
 
 **Weitere in diesem Dokument verwendete Quellen**
 
@@ -461,7 +512,7 @@ Attribute:
 | Eigentum von             | Bundesamt für Energie BFE                                                                               |
 | Kontakt                  | ogd@bfe.admin.ch                                                                                        |
 
-#### Stromproduktion
+#### Stromproduktion in kWh pro Kanton
 
 Stromproduktion in kWh pro Kanton, für den gesamten Regelblock und für den
 gesamten Regelblock ohne ausländische Gebiete in viertelstündlicher Auflösung.
@@ -479,6 +530,25 @@ Für mehr Informationen siehe [Netzdaten Regelblock Schweiz](#stromnetzdaten-reg
 | Aktualisierungsintervall | Monatlich                                                               |
 | Eigentum von             | Swissgrid AG                                                            |
 | Kontakt                  | Telefon +41 58 580 21 11<br/>E-Mail info@swissgrid.ch                   |
+
+#### Stromproduktion der Solaranlagen der St.Galler Stadtwerke (Pilotprojekt Kraftwerk St.Gallen)
+
+Der Datensatz zeigt die vergangene Stromproduktion der Solaranlagen der St.Galler Stadtwerke (sgsw),
+welche im Rahmen des Pilotprojekts "Kraftwerk St.Gallen" mit Stromzähler ausgerüstet wurden.
+Nur ein Teil der Solaranlagen, vorwiegend die Kleineren, wurden mit Smart-Me Zählern ausgerüstet.
+
+| Metadaten                |                                                                         |
+|--------------------------|-------------------------------------------------------------------------|
+| Ausdehnung               | Stadt St. Gallen                                                        |
+| Datenebene               | Stromzähler der PV-Anlagen                                              |
+| Geodaten                 | Ja                                                                      |
+| Format                   | CSV, JSON, XLSX, GeoJSON                                                |
+| Datenbezug               | <https://www.swissgrid.ch/de/home/customers/topics/energy-data-ch.html> |
+| Dokumentation            | <https://daten.stadt.sg.ch/explore/dataset/stromproduktion-der-solaranlagen-der-stgaller-stadtwerke/information/>                                    |
+| Open Data                | Ja (CC BY)                                                              |
+| Aktualisierungsintervall | Monatlich                                                               |
+| Eigentum von             | St.Galler Stadtwerke (sgsw)                                             |
+| Kontakt                  | OGD-Koordinationsstelle St.Gallen<br/>E-Mail opendata@stadt.sg.ch       |
 
 ### Energieübertragung und -verteilung
 
@@ -662,7 +732,7 @@ Attribute:
 | Eigentum von             | Noah Pflugradt                                     |
 | Kontakt                  | <https://loadprofilegenerator.de/contact/>         |
 
-#### Stromverbrauch
+#### Stromverbrauch in kWh pro Kanton
 
 Stromverbrauch in kWh pro Kanton, für den gesamten Regelblock und für den
 gesamten Regelblock ohne ausländische Gebiete in viertelstündlicher Auflösung.
@@ -680,6 +750,75 @@ Für mehr Informationen siehe [Netzdaten Regelblock Schweiz](#stromnetzdaten-reg
 | Aktualisierungsintervall | Monatlich                                                               |
 | Eigentum von             | Swissgrid AG                                                            |
 | Kontakt                  | Telefon +41 58 580 21 11<br/>E-Mail info@swissgrid.ch                   |
+
+#### Historisierter Jahresverbrauch der Heizungen im Kanton Genf
+
+Spezifischer Jahresverbrauch in [MJ/m2] und Jahresverbrauch in [kWh], [m3], [lt], [MWh] oder [kg] für Heizwärme- und Warmwasserproduktion pro Gebäude im Kanton Genf.
+
+| Metadaten                |                                                                         |
+|--------------------------|-------------------------------------------------------------------------|
+| Ausdehnung               | Kanton Genf                                                             |
+| Datenebene               | Gebäudeidentifikator                                                    |
+| Geodaten                 | Ja                                                                      |
+| Format                   | CSV, GDB, GML, KML, SHP                                                 |
+| Datenbezug               | <https://www.etat.ge.ch/geoportail/pro/?portalresources=SCANE_INDICE_MOYENNES_3_ANS> |
+| Dokumentation            | <https://ge.ch/sitg/fiche/2177>                                         |
+| Open Data                | Ja                                                                      |
+| Aktualisierungsintervall | Wöchentlich                                                             |
+| Eigentum von             | Office cantonal de l'énergie                                            |
+| Kontakt                  | Alejandro Lago Gomez <br/> Telefon +4122 327 93 92 <br/> E-Mail alejandro.lago-gomez@etat.ge.ch |
+
+#### Heizungen pro Gebäude im Kanton Genf
+
+Informationen zu Heizsystemen und Heizeinergieträger pro Gebäude im Kanton Genf.
+
+| Metadaten                |                                                                         |
+|--------------------------|-------------------------------------------------------------------------|
+| Ausdehnung               | Kanton Genf                                                             |
+| Datenebene               | Gebäudeidentifikator                                                    |
+| Geodaten                 | Ja                                                                      |
+| Format                   | CSV, GDB, GML, KML, SHP                                                 |
+| Datenbezug               | <https://www.etat.ge.ch/geoportail/pro/?portalresources=SCANE_CHAUDIERE>|
+| Dokumentation            | <https://ge.ch/sitg/fiche/7502>                                         |
+| Open Data                | Ja                                                                      |
+| Aktualisierungsintervall | Täglich                                                                 |
+| Eigentum von             | Office cantonal de l'énergie                                            |
+| Kontakt                  | Damien Chiffelle <br/> Telefon +4122 327 93 51 <br/> E-Mail damien.chiffelle@etat.ge.ch          |
+
+#### Endenergieverbrauch im Gebäudebereich nach Energieträgern und Gemeinden (Kanton Thurgau)
+
+Der Datensatz beinhaltet den Endenergieverbrauch im Gebäudebereich für Raumwärme und Warmwasser nach Energieträgern und nach Gemeinden ab dem Jahr 2015.
+
+| Metadaten                |                                                                         |
+|--------------------------|-------------------------------------------------------------------------|
+| Ausdehnung               | Kanton Thurgau                                                          |
+| Datenebene               | Gemeinde                                                                |
+| Geodaten                 | Nein                                                                    |
+| Format                   | CSV, JSON, Excel                                                        |
+| Datenbezug               | <https://data.tg.ch/explore/dataset/div-energie-5/export/>              |
+| Dokumentation            | <https://data.tg.ch/explore/dataset/div-energie-5/information/>         |
+| Open Data                | Ja                                                                      |
+| Aktualisierungsintervall | Unbekannt                                                               |
+| Eigentum von             | Abteilung Energie Kanton Thurgau                                        |
+| Kontakt                  | OGD-Koordinationsstelle Kanton Thurgau <br/> E-Mail ogd@tg.ch           |
+
+#### Anzahl Hauptheizsysteme nach Gemeinden (Kanton Thurgau)
+
+Der Datensatz beinhaltet die Anzahl Hauptheizsysteme nach Gemeinden ab dem Jahr 2015.
+
+| Metadaten                |                                                                         |
+|--------------------------|-------------------------------------------------------------------------|
+| Ausdehnung               | Kanton Thurgau                                                          |
+| Datenebene               | Gemeinde                                                                |
+| Geodaten                 | Nein                                                                    |
+| Format                   | CSV, JSON, Excel                                                        |
+| Datenbezug               | <https://data.tg.ch/explore/dataset/div-energie-12/export/>             |
+| Dokumentation            | <https://data.tg.ch/explore/dataset/div-energie-12/information/>        |
+| Open Data                | Ja                                                                      |
+| Aktualisierungsintervall | Unbekannt                                                               |
+| Eigentum von             | Abteilung Energie Kanton Thurgau                                        |
+| Kontakt                  | OGD-Koordinationsstelle Kanton Thurgau <br/> E-Mail ogd@tg.ch           |
+
 
 ### Energiebilanz (Produktion und Verbrauch)
 
@@ -898,7 +1037,7 @@ Attribute:
 #### Reisedistanzen pro Tag im Jahr 2017
 
 Dieser Datensatz zeigt die Verteilung der Reisedistanzen pro Tag im Jahr
-2017. Die Distanzen sind gruppiert in Bereiche von 5 km (z.B.
+1.    Die Distanzen sind gruppiert in Bereiche von 5 km (z.B.
 Reisedistanz von 10 - 15 km). Die Reisedistanz wird unterschieden
 zwischen Verkehrswegen und Luftlinie. Ausserdem wird die Art des
 Verkehrsweges (Bahn, Strasse) differenziert.
