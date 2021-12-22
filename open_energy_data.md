@@ -185,6 +185,10 @@ veröffentlicht werden. Offene Geodaten sind oft auch auf
 
 **Datenportale von Kantonen und Städten**
 
+Viele Kantone und Städte veröffentlichen Daten u.A. zu den Bereichen Energie, Gebäudestruktur, amtliche Vermessung und Gewerbestruktur.
+Viele Daten werden in Form von aggregierten Statistiken veröffentlich. 
+Teilweise sind aber auch nicht aggregierte Daten, z.B. von einzelnen Energieversorgern, enthalten.
+
 - Kanton Aargau
   - Statistik Portal: [https://www.ag.ch/de/dfr/statistik/datenportal/...](https://www.ag.ch/de/dfr/statistik/datenportal/filterabfrage/datenportal_filterabfrage.jsp?rewriteRemoteUrl=%2Fapp%2Fsajato-frontend%2Fselect)
 - Kanton Basel-Stadt
