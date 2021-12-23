@@ -69,7 +69,6 @@ für Energie BFE durch die geoimpact AG erarbeitet.
 
 Das Datenkaster wurde nach Best Effort erstellt und stellt keinen Anspruch auf Vollständigkeit.
 Einige bestehende Datensätze werden der Übersichtlichkeit halber bewusst nicht aufgeführt.
-Es kann aber auch sein, dass gewisse Datensätze vergessen gegangen sind.
 
 Projektverantwortung:
 
@@ -187,7 +186,7 @@ veröffentlicht werden. Offene Geodaten sind oft auch auf
 
 Viele Kantone und Städte veröffentlichen Daten u.A. zu den Bereichen Energie, Gebäudestruktur, amtliche Vermessung und Gewerbestruktur.
 Viele Daten werden in Form von aggregierten Statistiken veröffentlich. 
-Teilweise sind aber auch nicht aggregierte Daten, z.B. von einzelnen Energieversorgern, enthalten.
+Teilweise werden über diese Portale auch Daten von einzelnen Energieversorgern veröffentlicht.
 
 - Kanton Aargau
   - Statistik Portal: [https://www.ag.ch/de/dfr/statistik/datenportal/...](https://www.ag.ch/de/dfr/statistik/datenportal/filterabfrage/datenportal_filterabfrage.jsp?rewriteRemoteUrl=%2Fapp%2Fsajato-frontend%2Fselect)
@@ -272,7 +271,7 @@ Metadaten vorgestellt:
 | Eigenschaft              | Erklärung                                                                     |
 |--------------------------|-------------------------------------------------------------------------------|
 | Ausdehnung               | Geografischer Bezug der Daten, z.B. „Schweiz“ oder „Stadt Bern“.              |
-| Datenkategorie           | Eine der Kategorien "Messwerte", "Simulation", "Statistische Aggregation" oder "Potenzialanalyse" |
+| Datenkategorie           | Eine der Kategorien "Erhebung" (Werte aus Erhebungen oder Messungen ohne räumliche Aggregation), "Statistische Aggregation" (Räumlich aggregierte Erhebungen oder Messungen), "Modellierung" (Simulierte oder interpollierte Werte), "Potenzialanalyse" |
 | Datenebene               | Auflösung bzw. Aggregationsebene der Daten, z.B. „Haushalte“ oder „Schweiz“.  |
 | Geodaten                 | Angabe (Ja / Nein), ob die Daten georeferenziert sind.                        |
 | Format                   | Verfügbare Dateiformate und Webservices.                                      |
@@ -300,7 +299,7 @@ Der Datensatz enthält 2D-Dachgeometrien (Polygon).
 | Metadaten                |                                                                                                                                    |
 |--------------------------|------------------------------------------------------------------------------------------------------------------------------------|
 | Ausdehnung               | Schweiz                                                                                                                            |
-| Datenkategorie           | Messwerte                                                                                                                          |
+| Datenkategorie           | Erhebung                                                                                                                          |
 | Datenebene               | Dachflächen                                                                                                                        |
 | Geodaten                 | Ja                                                                                                                                 |
 | Format                   | Geopackage, Esri File GDB, WMS, REST API                                                                                           |
@@ -324,7 +323,7 @@ Der Datensatz enthält 2D-Fassadengeometrien (Linestring).
 | Metadaten                |                                                                                                                                    |
 |--------------------------|------------------------------------------------------------------------------------------------------------------------------------|
 | Ausdehnung               | Schweiz                                                                                                                            |
-| Datenkategorie           | Messwerte                                                                                                                          |
+| Datenkategorie           | Erhebung                                                                                                                          |
 | Datenebene               | Fassaden                                                                                                                           |
 | Geodaten                 | Ja                                                                                                                                 |
 | Format                   | Geopackage, Esri File GDB, WMS, REST API                                                                                           |
@@ -415,7 +414,7 @@ werden. Untenstehend beispielhaft die Informationen zur Höhe 75 m.
 | Metadaten                |                                                                                                                                    |
 |--------------------------|------------------------------------------------------------------------------------------------------------------------------------|
 | Ausdehnung               | Schweiz                                                                                                                            |
-| Datenkategorie           | Simulation                                                                                                                         |
+| Datenkategorie           | Modellierung                                                                                                                         |
 | Datenebene               | Raster mit Gitterweite 100 m                                                                                                       |
 | Geodaten                 | Ja                                                                                                                                 |
 | Format                   | Esri File GeoDB, INTERLIS, GeoTIFF, WMS                                                                                            |
@@ -439,7 +438,7 @@ Sonderverbrennungsanlagen liegen keine Wärmepotentiale vor.
 | Metadaten                |                                                                                                                                    |
 |--------------------------|------------------------------------------------------------------------------------------------------------------------------------|
 | Ausdehnung               | Schweiz                                                                                                                            |
-| Datenkategorie           | Messpunkte                                                                                                                         |
+| Datenkategorie           | Erhebung                                                                                                                         |
 | Datenebene               | Wärme- und Kältequellen                                                                                                            |
 | Geodaten                 | Ja                                                                                                                                 |
 | Format                   | Interlis XTF, WMS, REST API                                                                                                        |
@@ -479,7 +478,7 @@ Attribute:
 | Metadaten                |                                                                                                                                    |
 |--------------------------|------------------------------------------------------------------------------------------------------------------------------------|
 | Ausdehnung               | Schweiz                                                                                                                            |
-| Datenkategorie           | Messpunkte                                                                                                                         |
+| Datenkategorie           | Erhebung                                                                                                                         |
 | Datenebene               | Anlagenstandorte                                                                                                                   |
 | Geodaten                 | Ja                                                                                                                                 |
 | Format                   | CSV, Geopackage, Interlis XTF, WMS, REST API                                                                                       |
@@ -521,7 +520,7 @@ Attribute:
 | Metadaten                |                                                                                                         |
 |--------------------------|---------------------------------------------------------------------------------------------------------|
 | Ausdehnung               | Schweiz                                                                                                 |
-| Datenkategorie           | Messpunkte                                                                                              |
+| Datenkategorie           | Erhebung                                                                                              |
 | Datenebene               | Stromproduktionsanlagen                                                                                 |
 | Geodaten                 | Nein                                                                                                    |
 | Format                   | XLSX                                                                                                    |
@@ -561,7 +560,7 @@ Nur ein Teil der Solaranlagen, vorwiegend die Kleineren, wurden mit Smart-Me Zä
 | Metadaten                |                                                                         |
 |--------------------------|-------------------------------------------------------------------------|
 | Ausdehnung               | Stadt St. Gallen                                                        |
-| Datenkategorie           | Messwerte                                                               |
+| Datenkategorie           | Erhebung                                                               |
 | Datenebene               | Stromzähler der PV-Anlagen                                              |
 | Geodaten                 | Ja                                                                      |
 | Format                   | CSV, JSON, XLSX, GeoJSON                                                |
@@ -599,7 +598,7 @@ Attribute:
 -   Summe endverbrauchte Energie Regelblock Schweiz
 -   Summe verbrauchte Energie Regelblock Schweiz
 -   Vertikale Netzlast Übertragungsnetz Schweiz
--   Netto Ausspeisung aus dem Übertragungsnetz Schwiez
+-   Netto Ausspeisung aus dem Übertragungsnetz Schweiz
 -   Vertikale Einspeisung ins Übertragungsnetz Schweiz
 -   Positive Sekundärregelenergie
 -   Negative Sekundärregelenergie
@@ -656,7 +655,7 @@ Attribute:
 | Metadaten                |                                                                                                                                    |
 |--------------------------|------------------------------------------------------------------------------------------------------------------------------------|
 | Ausdehnung               | Schweiz                                                                                                                            |
-| Datenkategorie           | Messwerte                                                                                                                          |
+| Datenkategorie           | Erhebung                                                                                                                          |
 | Datenebene               | Gemeinden, Netzbetreiber und Verbrauchskategorien                                                                                  |
 | Geodaten                 | Nein                                                                                                                               |
 | Format                   | CSV, XLSX                                                                                                                          |
@@ -691,7 +690,7 @@ Attribute:
 | Metadaten                |                                                                                                                                    |
 |--------------------------|------------------------------------------------------------------------------------------------------------------------------------|
 | Ausdehnung               | Schweiz                                                                                                                            |
-| Datenkategorie           | Messwerte                                                                                                                          |
+| Datenkategorie           | Erhebung                                                                                                                          |
 | Datenebene               | Netzstandorte                                                                                                                      |
 | Geodaten                 | Ja                                                                                                                                 |
 | Format                   | CSV, Shapefile, Interlis XTF, WMS, REST API                                                                                        |
@@ -723,7 +722,7 @@ Attribute:
 | Metadaten                |                                                                                |
 |--------------------------|--------------------------------------------------------------------------------|
 | Ausdehnung               | keine                                                                          |
-| Datenkategorie           | Simulation                                                                     |
+| Datenkategorie           | Modellierung                                                                     |
 | Datenebene               | Gebäudetyp                                                                     |
 | Geodaten                 | Nein                                                                           |
 | Format                   | CSV                                                                            |
@@ -748,7 +747,7 @@ Attribute:
 | Metadaten                |                                                    |
 |--------------------------|----------------------------------------------------|
 | Ausdehnung               | keine                                              |
-| Datenkategorie           | Simulation                                         |
+| Datenkategorie           | Modellierung                                         |
 | Datenebene               | Haushalt                                           |
 | Geodaten                 | Nein                                               |
 | Format                   | CSV                                                |
@@ -786,7 +785,7 @@ Spezifischer Jahresverbrauch in [MJ/m2] und Jahresverbrauch in [kWh], [m3], [lt]
 | Metadaten                |                                                                         |
 |--------------------------|-------------------------------------------------------------------------|
 | Ausdehnung               | Kanton Genf                                                             |
-| Datenkategorie           | Messwerte                                                               |
+| Datenkategorie           | Erhebung                                                               |
 | Datenebene               | Gebäudeidentifikator & Jahr                                             |
 | Geodaten                 | Ja                                                                      |
 | Format                   | CSV, GDB, GML, KML, SHP                                                 |
@@ -804,7 +803,7 @@ Informationen zu Heizsystemen und Heizeinergieträger pro Gebäude im Kanton Gen
 | Metadaten                |                                                                         |
 |--------------------------|-------------------------------------------------------------------------|
 | Ausdehnung               | Kanton Genf                                                             |
-| Datenkategorie           | Messwerte                                                               |
+| Datenkategorie           | Erhebung                                                               |
 | Datenebene               | Gebäudeidentifikator                                                    |
 | Geodaten                 | Ja                                                                      |
 | Format                   | CSV, GDB, GML, KML, SHP                                                 |
@@ -920,7 +919,7 @@ Attribute:
 | Metadaten                |                                                                                                                                    |
 |--------------------------|------------------------------------------------------------------------------------------------------------------------------------|
 | Ausdehnung               | Europa                                                                                                                             |
-| Datenkategorie           | Messwerte                                                                                                                          |
+| Datenkategorie           | Erhebung                                                                                                                          |
 | Datenebene               | Länder                                                                                                                             |
 | Geodaten                 | Nein                                                                                                                               |
 | Format                   | XML, XLSX, CSV                                                                                                                     |
@@ -1008,7 +1007,7 @@ heruntergeladen werden:
 | Metadaten                |                                                                                 |
 |--------------------------|---------------------------------------------------------------------------------|
 | Ausdehnung               | Schweiz                                                                         |
-| Datenkategorie           | Messwerte                                                                       |
+| Datenkategorie           | Erhebung                                                                       |
 | Datenebene               | Ca. 500 Messstellen                                                             |
 | Geodaten                 | Nein (die verorteten Messstellen können separat bezogen werden)                 |
 | Format                   | XLSX                                                                            |
@@ -1063,7 +1062,7 @@ Attribute:
 | Metadaten                |                                                                  |
 |--------------------------|------------------------------------------------------------------|
 | Ausdehnung               | Schweiz                                                          |
-| Datenkategorie           | Messwerte                                                        |
+| Datenkategorie           | Erhebung                                                        |
 | Datenebene               | Ladestationen                                                    |
 | Geodaten                 | Ja                                                               |
 | Format                   | JSON                                                             |
@@ -1174,7 +1173,7 @@ Verfügbarkeit von Shared Mobility-Angeboten in Echtzeit.
 | Metadaten                |                                                                                               |
 |--------------------------|-----------------------------------------------------------------------------------------------|
 | Ausdehnung               | Schweiz                                                                                       |
-| Datenkategorie           | Messwerte                                                                                     |
+| Datenkategorie           | Erhebung                                                                                     |
 | Datenebene               | Shared Mobility Standorte                                                                     |
 | Geodaten                 | Ja                                                                                            |
 | Format                   | GBFS 2.0                                                                                      |
@@ -1229,7 +1228,7 @@ sind nur folgende Attribute der Stufe A enthalten:
 | Metadaten                |                                                                                               |
 |--------------------------|-----------------------------------------------------------------------------------------------|
 | Ausdehnung               | Schweiz                                                                                       |
-| Datenkategorie           | Messwerte                                                                                     |
+| Datenkategorie           | Erhebung                                                                                     |
 | Datenebene               | Stufe A: Gebäude und Wohnungen                                                                |
 | Geodaten                 | Ja                                                                                            |
 | Format                   | CSV, API                                                                                      |
@@ -1259,7 +1258,7 @@ Eine Auswahl an Layern und möglichen Ausprägungen:
 | Metadaten                |                                                                         |
 |--------------------------|-------------------------------------------------------------------------|
 | Ausdehnung               | Schweiz und Fürstentum Liechtenstein                                    |
-| Datenkategorie           | Messwerte                                                               |
+| Datenkategorie           | Erhebung                                                               |
 | Datenebene               | Objekte der Amtlichen Vermessung (Liegenschaften, Gebäude, ...)         |
 | Geodaten                 | Ja                                                                      |
 | Format                   | Esri Shapefile, GeoPackage, WFS, WMS, INTERLIS (AtomFeed)               |
@@ -1291,7 +1290,7 @@ Der Datensatz enthält 3D-Gebäude (Multisurface).
 | Metadaten                |                                                                                   |
 |--------------------------|-----------------------------------------------------------------------------------|
 | Ausdehnung               | Schweiz                                                                           |
-| Datenkategorie           | Messwerte                                                                         |
+| Datenkategorie           | Erhebung                                                                         |
 | Datenebene               | Gebäude                                                                           |
 | Geodaten                 | Ja                                                                                |
 | Format                   | Esri File GeoDB, DXF (bei Bestellung via E-Mail: Shapefile, CityGML, KML, OBJ)    |
@@ -1327,7 +1326,7 @@ Attribute:
 | Metadaten                |                                                             |
 |--------------------------|-------------------------------------------------------------|
 | Ausdehnung               | Schweiz                                                     |
-| Datenkategorie           | Messwerte                                                   |
+| Datenkategorie           | Erhebung                                                   |
 | Datenebene               | Ca. 170 Wetterstationen                                     |
 | Geodaten                 | Nein                                                        |
 | Format                   | CSV                                                         |
@@ -1394,7 +1393,7 @@ Für den Zugriff auf das API muss ein Account beantragt werden.
 | Metadaten                |                                                    |
 |--------------------------|----------------------------------------------------|
 | Ausdehnung               | Schweiz                                            |
-| Datenkategorie           | Messwerte                                          |
+| Datenkategorie           | Erhebung                                          |
 | Datenebene               | Firmen                                             |
 | Geodaten                 | Nein                                               |
 | Format                   | REST API                                           |
@@ -1441,7 +1440,7 @@ Transaktionsliste
 | Metadaten                |                                                    |
 |--------------------------|----------------------------------------------------|
 | Ausdehnung               | Schweiz                                            |
-| Datenkategorie           | Messwerte                                          |
+| Datenkategorie           | Erhebung                                          |
 | Datenebene               | Teilnehmer, Transaktionen, Versteigerungen         |
 | Geodaten                 | Nein                                               |
 | Format                   | CSV, XLS, XLSX                                     |
