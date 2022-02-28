@@ -1337,6 +1337,9 @@ Attribute:
 | Eigentum von             | Agroscope                                                   |
 | Kontakt                  | https://www.agrometeo.ch/de/kontakt                         |
 
+
+andere Quellen für meteorologische Daten: [meteostat](https://github.com/meteostat), meteoschweiz [idaweb](https://gate.meteoswiss.ch/idaweb)
+
 #### Klimanormwerte
 
 Dieser Datensatz enthält Klima-Normwerte aller Messstationen mit
