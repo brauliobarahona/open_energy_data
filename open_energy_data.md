@@ -24,6 +24,7 @@
       - [Übertragungsnetzdaten Regelblock Schweiz](#Übertragungsnetzdaten-regelblock-schweiz)
       - [Stromtarif pro Gemeinde, Netzbetreiber und Verbrauchskategorie](#stromtarif-pro-gemeinde-netzbetreiber-und-verbrauchskategorie)
       - [Thermische Netze (Nahwärme, Fernwärme, Fernkälte)](#thermische-netze-nahwärme-fernwärme-fernkälte)
+    - [Energiespeicherung](#energiespeicherung)
     - [Energieverbrauch](#energieverbrauch)
       - [Resident and commercial building energy demand profiles under different retrofit scenarios (CESAR model)](#resident-and-commercial-building-energy-demand-profiles-under-different-retrofit-scenarios-cesar-model)
       - [Load Profile Generator, Energie- und Wasserbedarf von Haushalten](#load-profile-generator-energie--und-wasserbedarf-von-haushalten)
@@ -700,6 +701,13 @@ Attribute:
 | Aktualisierungsintervall | Kontinuierlich                                                                                                                     |
 | Eigentum von             | Bundesamt für Energie (BFE)                                                                                                        |
 | Kontakt                  | geoinformation@bfe.admin.ch                                                                                                        |
+### Energiespeicherung
+
+#### Energiespeichertechnologien
+
+Datenbank der europäischen Energiespeichertechnologien und -einrichtungen it contains tables with data from storage facilities (e.g. location, name, status, technology, etc): https://data.europa.eu/data/datasets/database-of-the-european-energy-storage-technologies-and-facilities?locale=en
+
+Other repositories: https://www.storage-lab.com/data
 
 ### Energieverbrauch
 
