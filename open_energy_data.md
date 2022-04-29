@@ -705,9 +705,9 @@ Attribute:
 
 #### Energiespeichertechnologien
 
-Datenbank der europäischen Energiespeichertechnologien und -einrichtungen it contains tables with data from storage facilities (e.g. location, name, status, technology, etc): https://data.europa.eu/data/datasets/database-of-the-european-energy-storage-technologies-and-facilities?locale=en
+* Datenbank der europäischen Energiespeichertechnologien und -einrichtungener enthält Tabellen mit Daten von Lagereinrichtungen (z. B. Standort, Name, Status, Technologie usw.): https://data.europa.eu/data/datasets/database-of-the-european-energy-storage-technologies-and-facilities?locale=en
 
-Other repositories: https://www.storage-lab.com/data
+* Anderen Datenquellen: https://www.storage-lab.com/data
 
 ### Energieverbrauch
 
@@ -740,6 +740,11 @@ Attribute:
 | Aktualisierungsintervall | Keine Aktualisierung                                                           |
 | Eigentum von             | SCCER JA S&M                                                                   |
 | Kontakt                  | <andrew.bollinger@empa.ch>, <portia.murray@empa.ch>                            |
+
+
+#### Swiss load profile generator 
+
+* Anderen Load Profile generatoren entwickelt in der Schweiz
 
 #### Load Profile Generator, Energie- und Wasserbedarf von Haushalten
 
