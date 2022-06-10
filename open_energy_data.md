@@ -33,6 +33,7 @@
       - [Heizungen pro Gebäude im Kanton Genf](#heizungen-pro-gebäude-im-kanton-genf)
       - [Endenergieverbrauch im Gebäudebereich nach Energieträgern und Gemeinden (Kanton Thurgau)](#endenergieverbrauch-im-gebäudebereich-nach-energieträgern-und-gemeinden-kanton-thurgau)
       - [Anzahl Hauptheizsysteme nach Gemeinden (Kanton Thurgau)](#anzahl-hauptheizsysteme-nach-gemeinden-kanton-thurgau)
+      - [Smart meter rollout](#smart-meter-rollout)
     - [Energiebilanz (Produktion und Verbrauch)](#energiebilanz-produktion-und-verbrauch)
       - [Schweizerische Gesamtenergiestatistik](#schweizerische-gesamtenergiestatistik)
     - [Energiehandel](#energiehandel)
@@ -865,6 +866,9 @@ Der Datensatz beinhaltet die Anzahl Hauptheizsysteme nach Gemeinden ab dem Jahr 
 | Eigentum von             | Abteilung Energie Kanton Thurgau                                        |
 | Kontakt                  | OGD-Koordinationsstelle Kanton Thurgau <br/> E-Mail ogd@tg.ch           |
 
+#### Smart meter rollout
+
+* [EKZ Daten](https://www.ekz.ch/de/ueber-ekz/unternehmen/innovation/smart-meter-fragen-und-antworten.html)
 
 ### Energiebilanz (Produktion und Verbrauch)
 
