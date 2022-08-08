@@ -177,6 +177,7 @@ veröffentlicht werden. Offene Geodaten sind oft auch auf
     Datensätze für die Schweiz
 
 **Datenportale mit Open Data Angebot**
+-   [sweet-cross.ch/data/](https://sweet-cross.ch/data/) - Daten des SWEET-CROSS (CooRdination Of Scenarios for SWEET) Programms
 
 -   [data.sccer-jasm.ch](https://data.sccer-jasm.ch/) – Daten des Joint
     Activity Scenarios and Modelling (JASM) Programms
