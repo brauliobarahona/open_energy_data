@@ -337,6 +337,10 @@ Der Datensatz enthält 2D-Fassadengeometrien (Linestring).
 | Eigentum von             | Bundesamt für Energie (BFE)                                                                                                        |
 | Kontakt                  | geoinformation@bfe.admin.ch                                                                                                        |
 
+#### Rooftop photovoltaic (PV) potential data for the Swiss building stock
+
+[Rooftop PV potential data](https://zenodo.org/record/3609833#.YvD4ui8RppQ) computed at monthly-mean-hourly temporal resolution for each individual roof surface, based on a national roof surface dataset created by SwissTopo (https://www.uvek-gis.admin.ch/BFE/sonnendach/).
+
 #### Potenzial der verholzten Biomassenressourcen für die energetische Nutzung
 
 Biomasse ist eine erneuerbare Energiequelle, die in verschiedene
