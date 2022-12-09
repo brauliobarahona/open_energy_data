@@ -33,12 +33,13 @@
       - [Heizungen pro Gebäude im Kanton Genf](#heizungen-pro-gebäude-im-kanton-genf)
       - [Endenergieverbrauch im Gebäudebereich nach Energieträgern und Gemeinden (Kanton Thurgau)](#endenergieverbrauch-im-gebäudebereich-nach-energieträgern-und-gemeinden-kanton-thurgau)
       - [Anzahl Hauptheizsysteme nach Gemeinden (Kanton Thurgau)](#anzahl-hauptheizsysteme-nach-gemeinden-kanton-thurgau)
+      - [Aggregierte Smart-Meter-Verbrauchsdaten von Kanton Luzerne](aggregierte-smart-meter-verbrauchsdaten-von-kanton-luzerne)
       - [Smart meter rollout](#smart-meter-rollout)
     - [Energiebilanz (Produktion und Verbrauch)](#energiebilanz-produktion-und-verbrauch)
       - [Schweizerische Gesamtenergiestatistik](#schweizerische-gesamtenergiestatistik)
     - [Energiehandel](#energiehandel)
       - [Strompreise](#strompreise)
-      - [Herkunftsnachweise (HKN)](#herkunftsnachweise-hkn)
+      - [Herkunftsnachweise (HKN)](<#herkunftsnachweise hkn>)
     - [Mobilität](#mobilität)
       - [Schweizerische automatische Strassenverkehrszählung (SASVZ)](#schweizerische-automatische-strassenverkehrszählung-sasvz)
       - [Anteil der rein elektrischen Fahrzeuge am Personenwagenbestand (StatAtlas)](#anteil-der-rein-elektrischen-fahrzeuge-am-personenwagenbestand-statatlas)
@@ -870,6 +871,10 @@ Der Datensatz beinhaltet die Anzahl Hauptheizsysteme nach Gemeinden ab dem Jahr 
 | Aktualisierungsintervall | Unbekannt                                                               |
 | Eigentum von             | Abteilung Energie Kanton Thurgau                                        |
 | Kontakt                  | OGD-Koordinationsstelle Kanton Thurgau <br/> E-Mail ogd@tg.ch           |
+
+#### Aggregierte Smart-Meter-Verbrauchsdaten von Kanton Luzerne 
+
+[CKW Smart-Meter-Verbrauchsdaten](https://www.ckw.ch/landingpages/open-data): "Verfügbar sind aktuell die Verbrauchsdaten von Privathaushalten und Kleinbetrieben mit einem jährlichen Gesamtverbrauch von maximal 25 MWh in den letzten zwei Jahren. Daten von Grossverbrauchern können aus datenschutztechnischen Gründen und zum Schutz der Identität der Kundschaft nicht angeboten werden." 
 
 #### Smart meter rollout
 
